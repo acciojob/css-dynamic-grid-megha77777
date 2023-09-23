@@ -14,27 +14,27 @@
 	grid-template-columns:repeat(9,200px);
 	grid-gap:10px 10px;
 }
-@media screen and (max-width:1600px){
+@media screen and (max-width:1800px){
 	.grid-container{
 		grid-template-columns:repeat(8,200px)
 	}
 }
-@media screen and (max-width:1400px){
+@media screen and (max-width:1600px){
 	.grid-container{
 		grid-template-columns:repeat(7,200px)
 	}
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1400px){
 	.grid-container{
 		grid-template-columns:repeat(6,200px)
 	}
 }
-	@media screen and (max-width:1000px){
+	@media screen and (max-width:1200px){
 	.grid-container{
 		grid-template-columns:repeat(5,200px)
 	}
 }
-	@media screen and (max-width:800px){
+	@media screen and (max-width:1000px){
 	.grid-container{
 		grid-template-columns:repeat(4,200px)
 	}
