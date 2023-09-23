@@ -38,4 +38,16 @@
 	.grid-container{
 		grid-template-columns:repeat(4,200px)
 	}
+	@media screen and (max-width:800px){
+	.grid-container{
+		grid-template-columns:repeat(3,200px)
+	}
+	@media screen and (max-width:600px){
+	.grid-container{
+		grid-template-columns:repeat(2,200px)
+	}
+	@media screen and (max-width:420px){
+	.grid-container{
+		grid-template-columns:repeat(1,200px)
+	}
 }
