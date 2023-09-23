@@ -2,9 +2,9 @@
 .grid-item{
 	background-color:lightgray;
 	height: 150px;
+	width:200px;
 	border-radius:5px;
 	font-size:40px;
-	margin:10px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -12,6 +12,7 @@
 .grid-container{
 	display:grid;
 	grid-template-columns:repeat(9,200px);
+	grid-gap:10px 10px;
 }
 @media screen and (max-width:1600px){
 	.grid-container{
